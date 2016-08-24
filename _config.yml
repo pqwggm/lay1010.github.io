@@ -32,10 +32,10 @@ favicon: /public/img/deer3.png
 #  shortname: painterlin
 
 # 多说 设置
-comments:
-  provider: duoshuo
-  duoshuo:
-    short_name: pqwggm1
+# comments:
+#  provider: duoshuo
+#  duoshuo:
+#    short_name: pqwggm1
 
 # 主题设置，自动激活某个标签
 active: 读书
