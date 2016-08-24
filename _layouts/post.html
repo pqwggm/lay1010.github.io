@@ -13,7 +13,15 @@ layout: base
       {{ content }}
     </div>
     <hr>
-    {% include duoshuo.html %}
+    <div id="comments1">
+      <button type="button" value="点击加载评论" onclick='ShowOrHide();'>点击加载评论</button>
+    </div>
+    <!-- 多说评论框 start -->
+    <div id="duoshuocomments" style='display:none'>
+      <div class="ds-thread" {% if page.id %}data-thread-key="{{ page.id }}"{% endif %} data-title="{% if page.title %}{{ page.title }}-{% endif %}{{ site.title }}" {% if page.url %}data-url="https://pqwggm.github.io/{{ page.url }}"{% endif %}>
+      </div>
+    </div>
+<!-- 多说评论框 end -->
   </div>
   <!-- 目录 -->
   <div id="content_table" style="position:fixed;right:20px;top:120px;display:none;">

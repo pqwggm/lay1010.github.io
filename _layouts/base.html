@@ -19,4 +19,28 @@
   {% include footer.html %}
   {% include googleanalytics.html %}
 </body>
+<script type='text/javascript'>
+var ShowOrHide=function()
+{
+    var divContent=document.getElementById('duoshuocomments');
+    if(divContent.style.display=='none')
+    {
+        divContent.style.display='block';
+    }
+else
+{
+        divContent.style.display='none';
+}
+}
+
+var duoshuoQuery = {short_name:"pqwggm"};
+	(function() {
+		var ds = document.createElement('script');
+		ds.type = 'text/javascript';ds.async = true;
+		ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+		ds.charset = 'UTF-8';
+		(document.getElementsByTagName('head')[0] 
+		 || document.getElementsByTagName('body')[0]).appendChild(ds);
+	})();
+</script>
 </html>
