@@ -41,9 +41,9 @@ comments:
 active: 读书
 
 # 首页除了最新文章外显示分类
-cates: 
-  - Optimization
-  - LaTeX
+#cates: 
+#  - Optimization
+#  - LaTeX
 
 # 中文本地化
 locals:
@@ -51,3 +51,4 @@ locals:
   about: 关于
   newest: 最新文章
   archive: 归档
+  words: 留言
